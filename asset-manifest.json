@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/maaz-portfolio/static/js/main.36d82138.js",
-    "index.html": "/maaz-portfolio/index.html",
-    "main.36d82138.js.map": "/maaz-portfolio/static/js/main.36d82138.js.map"
+    "main.js": "/static/js/main.36d82138.js",
+    "index.html": "/index.html",
+    "main.36d82138.js.map": "/static/js/main.36d82138.js.map"
   },
   "entrypoints": [
     "static/js/main.36d82138.js"
