@@ -14,7 +14,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 const SkillsSection = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
   color: theme.palette.text.primary,
-  padding: theme.spacing(5, 0),
+  padding: theme.spacing(10, 0),
   textAlign: "center",
 }));
 
