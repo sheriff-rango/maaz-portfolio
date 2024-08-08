@@ -1,0 +1,8 @@
+export { ReactIcon } from './ReactIcon'
+export { HTMLIcon } from './HTMLIcon'
+export { JavaScriptIcon } from './JavaScriptIcon'
+export { TypeScriptIcon } from './TypeScriptIcon'
+export { BootstrapIcon } from './BootstrapIcon'
+export { NodeIcon } from './NodeIcon'
+export { MaterialIcon } from './MaterialIcon'
+export { CSSIcon } from './CSSIcon'

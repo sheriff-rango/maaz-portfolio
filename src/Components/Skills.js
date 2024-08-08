@@ -9,7 +9,6 @@ import {
   Box,
 } from "@mui/material";
 import { styled } from "@mui/system";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 const SkillsSection = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
@@ -42,11 +41,11 @@ const Skills = () => {
         </Box>
         <Grid container spacing={4}>
           {skills.map((skill) => (
-            <Grid item xs={12} sm={6} key={skill}>
+            <Grid item xs={12} lg={3} md={4} sm={6} key={skill.title}>
               <SkillCard>
                 <CardContent sx={{ display: "flex", alignItems: "center" }}>
-                  <CheckCircleIcon color="inherit" sx={{ mr: 2 }} />
-                  <Typography variant="body1">{skill}</Typography>
+                  <skill.icon color="inherit" style={{ marginRight: 5 }} />
+                  <Typography variant="body1">{skill.title}</Typography>
                 </CardContent>
               </SkillCard>
             </Grid>
