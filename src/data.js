@@ -55,4 +55,9 @@ export const skills = [
   { title: "Bootstrap", icon: (props) => <Icons.BootstrapIcon width={24} heigth={24} {...props} /> },
   { title: "Node.js", icon: (props) => <Icons.NodeIcon width={24} heigth={24} {...props} /> },
   { title: "Material UI", icon: (props) => <Icons.MaterialIcon width={24} heigth={24} {...props} /> },
+  { title: "Express.js", icon: (props) => <Icons.ExpressIcon width={24} heigth={24} {...props} /> },
+  { title: "Github", icon: (props) => <Icons.GithubIcon width={24} heigth={24} {...props} /> },
+  { title: "JQuery", icon: (props) => <Icons.JQueryIcon width={24} heigth={24} {...props} /> },
+  { title: "Frontend & Backend Tools", icon: (props) => <Icons.WeblateIcon width={24} heigth={24} {...props} /> },
+  { title: "End to End Development", icon: (props) => <Icons.DevIcon width={24} heigth={24} {...props} /> },
 ]
