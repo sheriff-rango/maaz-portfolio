@@ -18,7 +18,7 @@ import CodeIcon from "@mui/icons-material/Code";
 const ProjectsSection = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
   color: theme.palette.text.primary,
-  padding: theme.spacing(5, 0),
+  padding: theme.spacing(10, 0),
   textAlign: "center",
 }));
 
