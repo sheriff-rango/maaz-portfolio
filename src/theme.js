@@ -1,3 +1,4 @@
+import { SportsRugbySharp } from "@mui/icons-material";
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -15,7 +16,7 @@ const theme = createTheme({
       // default: "#0d47a1", // Deep blue for a striking default background
       // paper: "#1976d2", // A lighter shade of blue for paper elements
       default: "#000000",
-      paper: "#3333333", // A lighter shade of blue for paper elements
+      paper: "rgba(51, 51, 51, 0.5)", // A lighter shade of blue for paper elements
     },
     text: {
       primary: "#ffff", // Keep text white for contrast and readability

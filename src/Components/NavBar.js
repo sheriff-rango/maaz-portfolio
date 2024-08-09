@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <AppBar
       position="sticky"
-      sx={{ backgroundColor: "background.paper", zIndex: 10 }}
+      sx={{ zIndex: 10, backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)' }}
     >
       <Toolbar
         sx={{
