@@ -4,14 +4,18 @@ const theme = createTheme({
   palette: {
     mode: "dark", // Embrace the dark mode trend for a sleek look
     primary: {
-      main: "#66BB6A", // Use a bold pink for a pop of color
+      // main: "#66BB6A", // Use a bold pink for a pop of color
+      main: "#419345", // Use a bold pink for a pop of color
     },
     secondary: {
-      main: "#66BB6A", // Complement with a warm amber for secondary elements
+      // main: "#66BB6A", // Complement with a warm amber for secondary elements
+      main: "#419345", // Complement with a warm amber for secondary elements
     },
     background: {
-      default: "#0d47a1", // Deep blue for a striking default background
-      paper: "#1976d2", // A lighter shade of blue for paper elements
+      // default: "#0d47a1", // Deep blue for a striking default background
+      // paper: "#1976d2", // A lighter shade of blue for paper elements
+      default: "#000000",
+      paper: "#3333333", // A lighter shade of blue for paper elements
     },
     text: {
       primary: "#ffff", // Keep text white for contrast and readability
